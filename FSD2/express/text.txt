@@ -1,0 +1,18 @@
+1) npm init
+   npm init -y
+   npm config set proxy http://192.168.10.251
+
+2) npm install express --save
+
+3) res methods :
+   res.set()
+   res.write()	
+   res.end()	//close connection for node + express
+   res.send()  	//close connection for express
+   res.json()  	//pass the obj and close the connection
+   res.status()
+   res.sendFile()
+   res.redirect()
+   res.render()
+
+4) uri(uniform resource identifier) = urn(uniform resource name) + url(uniform resource locator)
