@@ -7,12 +7,18 @@
 3) res methods :
    res.set()
    res.write()	
-   res.end()	//close connection for node + express
+   res.end()	   //close connection for node + express
    res.send()  	//close connection for express
    res.json()  	//pass the obj and close the connection
    res.status()
-   res.sendFile()
+   res.sendFile() //send file to server and close the connection
    res.redirect()
    res.render()
 
 4) uri(uniform resource identifier) = urn(uniform resource name) + url(uniform resource locator)
+
+1> All in one approach.
+2> Logical Files in src folder.
+3> Non Logical Files in public Folder.
+4> Industrial Approach. (src + public)
+

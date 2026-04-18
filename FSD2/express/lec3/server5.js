@@ -1,7 +1,7 @@
 var expr = require('express');
 var app = expr();
 
-app.use(expr.static('./'));
+app.use(expr.static('./'));     // For all in one folder structure
 
 app.listen(5678);
 
