@@ -1,0 +1,12 @@
+1) npm init
+   npm init -y
+   npm config set proxy http://192.168.10.251
+
+2) npm install express --save
+
+quiz-password: 		qzbypsp@123
+mobile-website: 	mern-quizbypsp.web.app
+pc-website: 		https://sites.google.com/view/fsd-mern/node/
+ipe questions: 		https://sites.google.com/view/fsd-mern/node/node_special
+			https://sites.google.com/view/fsd-mern/express/node_special
+aptitude: 		https://sites.google.com/view/buildstack/home/aptitude2233

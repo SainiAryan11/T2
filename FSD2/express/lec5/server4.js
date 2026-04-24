@@ -20,3 +20,5 @@ app.get('/user',(req,res)=>{
 });
 
 app.listen(5672);
+
+// http://localhost:5672/
