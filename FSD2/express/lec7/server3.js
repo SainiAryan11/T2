@@ -9,14 +9,14 @@ storage = multer.diskStorage({
     filename:function(req,file,cb){
         cb(null,file.originalname);
     }
-}) ;
+});
 
 upload=multer({storage});
 
 app.post('/data',upload.single('mypic'),(req,res)=>{
     file = req.file;
     if(file){
-        res.send(`File Uploade ${file.originalname}`);
+        res.send(`File Uploaded ${file.originalname}`);
     } else {
         res.send('File Not Uploaded');
     }
